@@ -6,7 +6,7 @@ Integrated with professional travel APIs, the bot collects data from trusted ven
 
 The special feature of StayFlyBot's work lies in its transparency — all the options found are accompanied by links to the official websites of airlines, hotels or trusted aggregators, where you can safely complete your booking. The bot also provides useful tips: it recommends the optimal time to purchase tickets, points out special promotions and helps to avoid common mistakes when choosing.
 
-The technical platform is built on Python using the python-telegram-bot library and the Finite State Machine system for easy navigation. Integration with external APIs is carried out through secure protocols, and user data (search history, favorites) is stored locally in JSON format.
+The technical platform is built on Python using the python-telegram-bot library and the Finite State Machine system for easy navigation. Integration with external APIs is carried out through secure protocols, and user data (search history, favorites) is stored in the SQLite database.
 
 StayFlyBot is your personal search assistant that saves time on trip planning. It does not replace booking services, but makes their use more convenient by providing all the necessary information in one place and directing you to official sources to complete the transaction.
 
